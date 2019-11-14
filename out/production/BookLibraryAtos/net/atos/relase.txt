@@ -1,0 +1,52 @@
+2002/5000
+Twoim zadaniem jest napisanie aplikacji bibliotecznej. To całkiem oczywiste, jak działa biblioteka, więc nie ma sensu wyjaśniać tego tutaj :).
+
+Wymagania niefunkcjonalne:
+
+DONE - powinien być napisany w Javie (Java 8 jest zalecany, ale inne wersje też są w porządku),
+DONE - NIE powinien zawierać żadnego interfejsu użytkownika (przez interfejs użytkownika rozumiem API REST, Swing, gwt, vadin, html, wiersz poleceń, javascript itp.),
+- zalecanym sposobem dostarczania jest link do repozytorium GitHub z plikiem readme zawierającym instrukcje dotyczące budowy aplikacji i uruchamiania testów. Dopuszczalne jest również przesyłanie nam skompresowanych źródeł z instrukcją kompilacji,
+DONE - nie trzeba utrzymywać stanu aplikacji między uruchomieniem aplikacji (więc nie zawracaj sobie głowy konfigurowaniem bazy danych lub zapisywaniem danych w plikach płaskich itp.),
+- testy jednostkowe będą dodatkową korzyścią
+DONE - proszę nie używać Spring ani Hibernacji
+
+Wymagania dotyczące biblioteki
+
+DONE 1. Biblioteka zawiera książki do wypożyczenia (na początku nie ma książek w bibliotece)
+DONE 2. Książka składa się z tytułu, roku i autora.
+DONE 4. Każda książka powinna mieć unikalny identyfikator (ID) w całej aplikacji.
+DONE 5. Powinno być możliwe dodanie nowej książki do biblioteki. Identyfikatora nie należy przekazywać jako argumentu. Identyfikator powinien zostać wygenerowany w bibliotece.
+DONE 6. Powinno być możliwe usunięcie danej książki z biblioteki (według ID) (takie działanie powinno być możliwe tylko wtedy, gdy książka o takim identyfikatorze istnieje i nie jest obecnie wypożyczona).
+7. Powinien umożliwiać listę wszystkich książek w bibliotece (wyraźnie). Zwracane informacje powinny zawierać informacje, ile jest dostępnych lub wypożyczonych. Możesz użyć po prostu System.out.println
+8. Powinien umożliwiać wyszukiwanie książki według tytułu, autora, roku (także innych kombinacji, takich jak tytuł AND autor).
+DONE 9. Powinien umożliwiać wypożyczenie książki według dokumentu tożsamości (powinno być zabronione, jeśli kopia o podanym identyfikatorze jest już wypożyczona). Powinny pozwolić na przekazanie nazwiska osoby, która pożyczyła książkę.
+10. Powinien umożliwiać przeglądanie wszystkich szczegółów książki według ID (tytuł, autor, rok, informacje, jeśli są dostępne lub wypożyczone wraz z nazwiskiem osoby).
+
+Jeśli uważasz, że wymagania są zbyt trudne, zaimplementuj jak najwięcej punktów.
+
+
+gfcggghfhghfghfghfjgghfgffdghhghhgjfgfjdhffjjjgjff
+
+
+int age = 29;
+
+if (age < 13)
+{
+  System.out.println("You are but a wee child!");
+}
+else if (age < 19)
+{
+  System.out.println("You are no longer a child, but a budding teenager.");
+}
+else {}
+
+
+{
+  if (age < 65)
+  {
+    System.out.println("You are an adult!");
+  }
+  else
+  {
+    System.out.println("You are now a senior, enjoy the good life friends!");
+  }
