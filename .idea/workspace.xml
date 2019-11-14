@@ -39,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest">
+  <component name="RunManager" selected="JUnit.LibraryTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="net.atos.Library" />
       <module name="BookLibraryAtos" />
@@ -64,8 +64,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BookLibraryAtos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.atos.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="net.atos.tests" />
+      <option name="MAIN_CLASS_NAME" value="net.atos.tests.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BookTest" />
         <item itemvalue="Application.Main" />
       </list>

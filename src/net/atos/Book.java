@@ -89,6 +89,7 @@ public class Book {
         System.out.println("Author            : " + this.author);
         System.out.println("Title             : " + this.title);
         System.out.println("Year              : " + this.year);
+        System.out.println("Available to lent : " + (!(this.status)));
         System.out.println("------------------------------------------------------------------------------");
     }
 
@@ -96,7 +97,7 @@ public class Book {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println("Book Library example implementation for Atos.");
+     System.out.println("Book Library example implementation for Atos.");
 
       Book book1 = new Book("Cay S. Horstmann", "Core Java Volume I – Fundamentals", 2018);
       Book book2 = new Book("Joshua Bloch", "Effective Java", 2017);

@@ -104,3 +104,14 @@ public class Library {
     }
 
 }
+
+//        "Java Concurrency in Practice" "Brian Goetz" 2006
+//        "Test Driven: TDD and Acceptance TDD for Java Developers" "Lasse Koskela" 2007
+//        "Java Performance: The Definitive Guide" "Scott Oaks" 2014
+//        "Clean Code: A Handbook of Agile Software Craftsmanship" "Robert Martin" 2008
+//        "Java: A Beginner's Guide, Seventh Edition" "Herbert Schildt" 2017
+//        "High-Performance Java Persistence" "Vlad Mihalcea" 2016
+//        "Java For Dummies" "Barry A. Burd" 2006
+//        "Java Programming 24-Hour Trainer" "Yakov Fain" 2011
+//        "Modern Java Recipes: Simple Solutions to Difficult Problems in Java 8 and 9" "Ken Kousen" 2017
+//        "Core Java, Volume II--Advanced Features" "Cay S. Horstmann" 2005
